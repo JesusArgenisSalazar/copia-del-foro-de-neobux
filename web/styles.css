@@ -1,0 +1,273 @@
+body {
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+p,h1,h2,h3,h4,h5,h5,ol,ul,a {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+
+
+#contenedor{
+
+    /*width: 1024px;*/
+}
+
+#barra{
+    background-color: black;
+    height: 25px;
+    
+    
+}
+
+#barra li{
+
+    font-family: Arial Verdana;
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+
+}
+
+#barra a{
+
+    text-decoration: none;
+    font-family: "Century Gothic", Arial Sans-serif;
+    font-size: 1.2em;
+
+
+}
+
+#barra a:link{
+
+    color: #3399ff;
+}
+
+#barra a:visited{
+
+    color: #3399ff;
+}
+
+#barra a:hover{
+
+    background: darkgrey;
+    color:white;
+}
+
+#baner{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    
+    
+    background-image: url("images/border.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+
+}
+
+#principal{
+
+    position: relative; 
+    margin: 70px 17px 20px 27px;
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    
+
+
+
+
+}
+
+#principal #imagen{
+
+    position: absolute;
+    left: -15px;
+    top: 35px;
+}
+
+#principal h2{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    color: white;
+    font-size: 1.3em;
+}
+
+h3{
+    color:lime;
+    margin: 60px 0px 0 27px;
+}
+
+.diferentcolor{
+    
+    color: white;
+    font-size:1.1em;
+}
+
+#campoText{
+
+    border: 2px #0099ff solid;
+    font-size: 1.1em;   
+    font-family: "Century Gothic", sans serif;
+    color:black;
+    background-color:#cccccc;
+    width:200px;
+    
+}
+
+#campoText:focus{
+
+    background-color: gray;
+    border: 2px #0099ff solid;
+}
+
+#botonMin{
+
+    font-weight: bold;
+    border: 2px #006600 solid;
+    font-size: 1.1em;   
+    font-family: "Century Gothic", sans serif;
+    color:white;
+    background-color:#009900;
+    width:100px;
+}
+
+
+#principal #tablaform td{
+    
+    text-align: right;
+    
+    
+}
+
+#principal #ContenidoPrincipal{
+    
+    margin-left: 50px;
+    overflow: scroll;
+    
+}
+
+#principal #tablaTemas{
+    
+    border-collapse: collapse;  
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#tablaTemas td,#tablaTemas th{
+    
+    border: 1px #cccccc solid;
+    padding: 4px 30px 4px 10px;
+       
+                
+    text-align: left;
+    
+}
+
+#tablaTemas thead{
+    
+    color: white;
+    background-color: gray;
+    background-image: url(images/bordertabla.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    
+}
+
+#tablaTemas .tdMini{
+    
+    padding: 4px 10px 4px 10px;
+}
+
+#principalTemas{
+    
+    margin: 0px 17px 20px 27px;
+    
+    
+}
+
+#Tema{
+    position: relative;
+    padding-top: 50px;
+    background-image: url("images/fondoTema.png");
+    background-position-y: 10px;
+    background-repeat:repeat-x;
+    background-size: 29px;
+    margin-bottom: 10px;
+  
+    
+}
+
+#Tema #imagen{
+    
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    
+    
+}
+
+
+
+#Tema .username{
+    
+    position: absolute;
+    top : 13px;
+    left: 7px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+
+
+#TablaRespuestas .chat{
+    
+    
+    position: relative;
+    padding: 0px 30px 60px 40px;
+    background-image: url(images/chatCenter.jpg);
+    background-repeat: repeat-y;
+    
+   
+        
+}
+
+#TablaRespuestas .chat #imgchatTop{
+    
+    margin-left: -53px;
+    
+}
+
+#TablaRespuestas .chat #imgchatbottom{
+    
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#principalTemas #Tema{
+    
+    background-color: white;
+}
+
+
+body{
+
+    background-color:#cccccc;;
+    /*
+    
+    background-image:url(fondo.png);
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    background-position-y: 10px;
+    background-color: #cccccc;
+    */
+}
